@@ -1,0 +1,126 @@
+h1 {
+	font-size: 36px;
+	color: #4982ef;
+	margin-top: 40px;
+}
+
+h2 {
+	color: #2325d2;
+	font-size: 24px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+h4 {
+	color: #6a94f3;
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+/*
+.brush {
+	fill: #ccc;
+	fill-opacity: .5;
+	pointer-events: none;
+}*/
+
+.axis line,
+.axis path {
+  fill: none;
+  stroke: #555;
+  shape-rendering: crispEdges;
+}
+
+.tick text {
+	font-family: sans-serif;
+	font-size: 11px;
+	fill: #555;
+}
+
+#priovis .x-axis text {
+	font-weight: 600;
+}
+
+.area {
+	fill: #825a5a;
+}
+
+.area.area-age {
+	fill: #94a97a;
+}
+
+.bar {
+	fill: #93bebf;
+}
+
+.date_label {
+	background-color: papayawhip;
+	padding: 6px;
+	border-radius: 5px;
+}
+
+path {
+	stroke:white;
+	stroke-width: 0.5px;
+	fill:#EBEBE0;
+}
+
+#float-button-group {
+	position:fixed;
+	left:10px;
+	opacity:0.5;
+}
+
+#float-button-group:hover {
+	opacity:1;
+}
+
+#map {
+
+	/*width: 965px;*/
+	height: 700px;
+	padding: 0px !important;
+}
+
+.map svg {
+	background: skyblue;
+	border: 3px solid steelblue;
+}
+
+.tooltip-title {
+	font-weight: bold;
+}
+
+.legend-label {
+	font-weight: bold;
+}
+
+.legend {
+	background-color: #555555;
+	fill: #555555;
+}
+
+.toolTip {
+	position: absolute;
+	background-color: rgba(125, 125, 125, 0.34);
+	border-radius: 4px;
+	padding: 8px;
+}
+
+.different_row {
+	color: red !important;
+}
+
+form {
+	padding-bottom: 20px;
+}
+
+.legendPanel {
+	background-color: red;
+	/*border-radius: 3px;*/
+}
+
+.bgLegend {
+	opacity: 30%;
+}
